@@ -1,4 +1,36 @@
-.parallax-window {
- +	min-height: 400px;
- +	background: transparent;
- +}
+/*.parallax-window {
+ 	min-height: 400px;
+ 	background: transparent;
+ }*/
+
+ body, html {
+    height: 100%;
+}
+
+.parallax1 { 
+    /* The image used */
+    background-image: url("http://i63.tinypic.com/4pzcx1.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 { 
+    /* The image used */
+    background-image: url("http://i65.tinypic.com/rstxk7.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
