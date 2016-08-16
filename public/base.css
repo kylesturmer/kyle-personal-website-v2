@@ -34,3 +34,43 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.parallax3 { 
+    /* The image used */
+    background-image: url("http://i66.tinypic.com/okuywy.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    text-align: center;
+}
+
+.background {
+	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 19px;
+    width: 50%
+}
+
+#education p{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+#education h2 {
+	text-align: center;
+}
